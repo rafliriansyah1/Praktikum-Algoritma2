@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 27 12:59:56 2021
+
+@author: LINSYVER
+NAMA : RAFLI RIANSYAH
+NIM : 064002100028
+
+
+"""
+"""
+
+nama : rafli rianssyah
+nim 064002100028
+
+"""
+import math
+print("tugas praktikum 2 algoritma dasar")
+
+a = float(input("masukan nilai a = "))
+b = float(input("masukan nilai b = "))
+
+print("ini penjumlahan menggunakan math module : ",math.pow(a, b))
+
+hasil  = a + b
+print("1.jumlah a tambah b adalah",hasil)
+
+hasil = abs(a - b)
+print("2.jumlah a kurang b adalah",hasil)
+
+hasil = a * b
+print("3.jumlah a dikali b adalah",hasil)
+
+hasil = a / b
+print("4.jumlah a dibagi b adalah",hasil)
+
+hasil = a % b
+print("5.jumlah sisa pembagian a dan b adalah",hasil)
+
+hasil = math.log10(a)
+print("6.jumlah log a dan b adalah",hasil)
+
+hasil = a ** b
+print("7.jumlah a pangkat b adalah",hasil)
+
